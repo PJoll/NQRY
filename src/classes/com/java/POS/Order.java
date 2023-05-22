@@ -2,6 +2,12 @@ package com.yourcompany;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.String;
+import classes.com.java.POS.CoffeeType;
+import classes.com.java.POS.PreparationStyle;
+import classes.com.java.POS.CoffeeSize;
+import classes.com.java.POS.Condiment;
+
 
 public class Order {
     private List<CoffeeType> coffeeTypes;

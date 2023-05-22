@@ -1,6 +1,11 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.lang.String;
+import classes.com.java.POS.CoffeeType;
+import classes.com.java.POS.PreperationStyle;
+import classes.com.java.POS.CoffeeSize;
+import classes.com.java.POS.Condiment;
+
 
 public class PointOfSaleApplication {
     public  PointOfSaleApplication(String[] args){
