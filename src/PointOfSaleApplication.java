@@ -8,7 +8,7 @@ import classes.com.java.POS.Condiment;
 
 
 public class PointOfSaleApplication {
-    public  PointOfSaleApplication(String[] args){
+    public  static void main(String[] args){
         // Creating the coffee types 
         CoffeeType houseBlend = new CoffeeType("House Blend", 1.0);
         CoffeeType darkRoast = new CoffeeType("Dark roast", 1.5);
