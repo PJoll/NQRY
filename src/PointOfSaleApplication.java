@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.lang.String;
 import classes.com.java.POS.CoffeeType;
-import classes.com.java.POS.PreperationStyle;
+import classes.com.java.POS.PreparationStyle;
 import classes.com.java.POS.CoffeeSize;
 import classes.com.java.POS.Condiment;
 
@@ -16,11 +16,11 @@ public class PointOfSaleApplication {
         CoffeeType arabica = new CoffeeType("Arabica", 2.5);
 
         // Creating the preperation styles
-        PreperationStyle espresso = new PreperationStyle("Espresso", 1.0);
-        PreperationStyle latte = new PreperationStyle("Latte", 1.25);
-        PreperationStyle cappuccino = new PreperationStyle("Cappuccino", 1.5);
-        PreperationStyle macchiato = new PreperationStyle("Macchiato", 1.75);
-        PreperationStyle mocha = new PreperationStyle("Mocha", 2.0);
+        PreparationStyle espresso = new PreparationStyle("Espresso", 1.0);
+        PreparationStyle latte = new PreparationStyle("Latte", 1.25);
+        PreparationStyle cappuccino = new PreparationStyle("Cappuccino", 1.5);
+        PreparationStyle macchiato = new PreparationStyle("Macchiato", 1.75);
+        PreparationStyle mocha = new PreparationStyle("Mocha", 2.0);
 
         // Creating the coffee sizes
         CoffeeSize standard = new CoffeeSize("Standard", 1.0);
