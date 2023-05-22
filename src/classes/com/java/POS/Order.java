@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Order {
     private List<CoffeeType> coffeeTypes;
-    private List<PreparationStyle> preparationStyle;
-    private List<CoffeeSize> coffeeSize;
+    private PreparationStyle preparationStyle;
+    private CoffeeSize coffeeSize;
     private List<Condiment> condiments;
 
     public Order() {
@@ -14,6 +14,14 @@ public class Order {
         condiments = new ArrayList<>();
     }
 
+    public Order(CoffeeType coffeeType, PreparationStyle preparationStyle, CoffeeSize coffeeSize, List<Condiment> condiments) {
+        this.coffeeTypes = new ArrayList<>();
+        this.coffeeTypes.add(coffeeType);
+        this.preparationStyle = preparationStyle;
+        this.coffeeSize = coffeeSize;
+        this.condiments = condiments;
+
+    }
     public void addCoffeeType(CoffeeType coffeeType) {
         coffeeTypes.add(coffeeType);
     }

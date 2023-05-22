@@ -17,6 +17,6 @@ class PreparationStyle {
         return cost;
     }
     public static List<PreparationStyle> getAllValues() {
-		return Arrays.asList(CoffeePreparationStyle.values());
+		return Arrays.asList(PreparationStyle.values());
 	}
 }
